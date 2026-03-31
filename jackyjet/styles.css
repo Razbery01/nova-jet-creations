@@ -332,8 +332,7 @@ h3 { font-size: 1.4rem; }
 
 .about-image img {
     width: 100%;
-    height: 500px;
-    object-fit: cover;
+    height: auto;
     border-radius: 4px;
 }
 
@@ -884,7 +883,7 @@ h3 { font-size: 1.4rem; }
         grid-template-columns: 1fr;
     }
 
-    .about-image img { height: 350px; }
+    .about-image img { height: auto; }
 
     .services-grid { grid-template-columns: 1fr; }
     .clients-grid { grid-template-columns: 1fr; gap: 20px; }
